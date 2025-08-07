@@ -59,3 +59,11 @@ footer {
     font-size: 1rem;
   }
 }
+.logo {
+  width: 150px;         /* Adjust size as needed */
+  height: 150px;        /* Must match width for a perfect circle */
+  border-radius: 50%;   /* This makes it circular */
+  object-fit: cover;    /* Ensures the image fills the circle */
+  display: block;
+  margin: 0 auto 2rem auto;  /* Center it and give it spacing */
+}
